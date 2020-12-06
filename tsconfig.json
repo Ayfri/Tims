@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"ES2020"
+		],
+		"strict": true,
+		"pretty": true
+	},
+	"include": [
+		"./src/**/*.ts",
+		"mod.ts"
+	]
+}
