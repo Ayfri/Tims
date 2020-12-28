@@ -5,8 +5,21 @@
 - typescript typings included
 - deno version of the [npm package `tims`](https://github.com/CamilleAbella/Tims).
 
-## How to get it
-Not obtenable for now.
+## Usage
+```ts
+import tims from 'https://api.deno.land/webhook/gh/tims';
+const yesterday = new Date();
+yesterday.setDate(yesterday.getDate() - 1);
+console.log(tims.since(yesterday));
+// "1 day"
+```
+## Methods
+
+| Method | Description | Return Type |
+| --- | --- | --- |
+| `between(moment, moment, options)` | Get the sentence of time past since given moment. | string |
+| `duration(duration, options)` | Get the sentence of time between given moments. | string |
+| `since(moment, options)` | Get the sentence of given duration. | string |
 
 ## Options
 
