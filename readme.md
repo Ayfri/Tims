@@ -1,17 +1,12 @@
 
-# Tims 🕚 
-
-[![NPM](https://nodei.co/npm/tims.png?compact=true)](https://npmjs.org/package/tims)
-
-- typescript typings included
+# Tims 🕚
 - no dependency
 - optimized and light code
+- typescript typings included
+- deno version of the [npm package `tims`](https://github.com/CamilleAbella/Tims).
 
-## Install
-
-```bash
-npm install tims@latest
-```
+## How to get it
+Not obtenable for now.
 
 ## Options
 
